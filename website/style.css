@@ -1,0 +1,64 @@
+
+
+@font-face {
+  font-family: 'lato';
+  src: URL('assets/lato.bold.ttf') format('truetype');
+}
+body {
+
+    font-family: lato, sans-serif;
+}
+
+.main-container {
+    
+    width: 75%;
+    margin:  auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    display: grid;
+}
+.main-title{
+    
+    margin-bottom: 5px;
+    display: flex;
+    padding-right: 50%
+}
+.main-content {
+    background-color: rgba(247, 211, 190, 0.5); /* Semi-transparent */
+    backdrop-filter: blur(7px);
+
+    width: 65%;
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+}
+.main-title-divider {
+
+    flex: 1;
+    border-right: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 50px;
+    font-family: lato, sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.main-title-divider:first-child{
+    text-align: left;
+}
+.main-title-divider:last-child {
+    border-right: none;
+}
+
+.main-title-divider img{
+    max-width:40px;
+    height: auto;
+    margin-right: 20px;
+}
