@@ -91,3 +91,47 @@ body {
     font-size: 24px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.team-member {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+  
+  .team-member-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 177, 113, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 163, 88, 0.5);
+    overflow: hidden;
+  }
+  
+  .team-member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .team-member-info {
+    flex: 1;
+  }
+  
+  .team-member-name {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .team-member-role {
+    font-size: 14px;
+    color: #666;
+  }
