@@ -45,7 +45,7 @@ body {
     padding-right: 10px;
     text-align: center;
     height: 50px;
-    font-family: lato, sans-serif;
+
     font-size: 30px;
     display: flex;
     align-items: center;
@@ -68,8 +68,10 @@ body {
 }
 
 .scroll-button {
-    font-family: lato, sans-serif;
+
     font-size: 30px;
+    text-decoration: none;
+    color: inherit;
     background-color: rgba(0, 0, 0, 0.1);
     border: 0px solid;
     border-radius: 5px;
@@ -97,6 +99,7 @@ body {
     align-items: center;
     gap: 15px;
     margin: 15px 0;
+    width: 30%;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
@@ -133,5 +136,8 @@ body {
   
   .team-member-role {
     font-size: 14px;
-    color: #666;
+    color: #6d6969;
   }
+  html {
+    scroll-behavior: smooth;
+}
